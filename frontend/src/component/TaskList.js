@@ -9,6 +9,8 @@ import e from "cors";
 const TaskList = () => {
   const [tasks, setTasks] = useState([]);
   const [completedtasks, setCompletedTasks] = useState([]);
+  // const [completedtasks, setCompletedTasks] = useState([]);
+  // const [completedtasks, setCompletedTasks] = useState([]);
 
   const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
