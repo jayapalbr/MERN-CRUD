@@ -6,6 +6,9 @@ const Task = ({ task, index,deleteTask ,getSingleTAsk,setToComplete}) => {
     <div style={{display:'flex', alignItems:'center' ,justifyContent:"space-between",margin:'0px 200px',borderBottom:'1px solid aqua'}}>
       <p>
         <b>{index + 1}</b>
+        {/* <b>{index + 1}</b>
+        <b>{index + 1}</b>
+        <b>{index + 1}</b> */}
         {task.name}
       </p>
       <div style={{}}>

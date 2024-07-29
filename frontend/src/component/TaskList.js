@@ -4,7 +4,7 @@ import TaskForm from "./TaskForm";
 import Task from "./Task";
 import { toast } from "react-toastify";
 import { URL } from "../App";
-import e from "cors";
+// import e from "cors";
 
 const TaskList = () => {
   const [tasks, setTasks] = useState([]);
